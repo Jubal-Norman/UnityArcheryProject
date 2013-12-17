@@ -7,6 +7,8 @@ var ammoCountRect : Rect = Rect(25,25,50,25);
 var ammoCount : int = 10;
 
 function Start () {
+	Screen.showCursor = false;
+	Screen.lockCursor = true;
 
 }
 var arrowClone : Rigidbody;
